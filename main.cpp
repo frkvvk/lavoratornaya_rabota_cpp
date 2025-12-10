@@ -20,6 +20,7 @@ int main()
     setlocale(LC_ALL, "RUSSIAN");
     //функция 1:
     wifstream inFile("ababa.txt");
+    vector<shaurma> vse_shaurmy;
     //функция 2:
 
     //функция 3:
