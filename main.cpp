@@ -31,6 +31,7 @@ int main()
     }
     wcout << ss.str();
     //функция 3:
+    ofstream out("out.bin", ios::binary);
 
     return 0;
 }
