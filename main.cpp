@@ -32,6 +32,10 @@ int main()
     wcout << ss.str();
     //функция 3:
     ofstream out("out.bin", ios::binary);
+    for(const auto &vid : vse_shaurmy)
+    {
+        out.write(reinterpret_cast<const char*>(&vid), sizeof(shaurma));
+    }
 
     return 0;
 }
