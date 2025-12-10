@@ -21,7 +21,7 @@ int main()
     //функция 1:
 
     //функция 2:
-
+    wstringstream ss;
     //функция 3:
 
     return 0;
