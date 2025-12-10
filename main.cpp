@@ -22,6 +22,13 @@ int main()
 
     //функция 2:
     wstringstream ss;
+    int k = 12;
+    ss << left << setw(k) << "Соус" << setw(k) << "Вес" << setw(k) << "Мясо" << setw(k) << "Килокалории" << endl;
+    for(const auto &vid : vse_shaurmy)
+    {
+        ss << endl;
+        ss << left << setw(k) << vid.sous << setw(k) << vid.ves << setw(k) << vid.meat << setw(k) << vid.kalorii << endl;
+    }
     //функция 3:
 
     return 0;
