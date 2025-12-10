@@ -19,7 +19,7 @@ int main()
 {
     setlocale(LC_ALL, "RUSSIAN");
     //функция 1:
-
+    wifstream inFile("ababa.txt");
     //функция 2:
 
     //функция 3:
