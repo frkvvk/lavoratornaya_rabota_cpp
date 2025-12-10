@@ -29,6 +29,7 @@ int main()
         ss << endl;
         ss << left << setw(k) << vid.sous << setw(k) << vid.ves << setw(k) << vid.meat << setw(k) << vid.kalorii << endl;
     }
+    wcout << ss.str();
     //функция 3:
 
     return 0;
